@@ -114,6 +114,7 @@ class MyApp extends StatelessWidget {
       title: 'My App',
 
        home: SignupPage(),
+
       initialRoute: Constants.loginRoute,
       getPages: [
         GetPage(name: Constants.loginRoute, page: () => LoginPage()),
@@ -121,7 +122,9 @@ class MyApp extends StatelessWidget {
          GetPage(name: Constants.homeRoute, page: () => HomePage()),
       ],
 
+
     );
+
   }
 
 }
